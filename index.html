@@ -6,44 +6,70 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-      <div>
-        <row>
-          <img src="imgs/leboncoin.png" alt="">
-          <a href="">Déposer une annonce</a>
-          <a href="">Rechercher</a>
-          <a href="">Mes recherches</a>
-          <a href="">Favoris</a>
-          <a href="">Messages</a>
-          <a href="">Mon compte</a>
-        </row>
-        <row>
-          <ul>
-            <li>Immobillier</li>
-            <li>Vehicules</li>
-            <li>Vacances</li>
-            <li>Emploi</li>
-            <li>Mode</li>
-            <li>Maison</li>
-            <li>Multimédias</li>
-            <li>Loisirs</li>
-            <li>Matériel professionnel</li>
-            <li>Autres</li>
-          </ul>
-        </row>
-      </div>
-      <div>
-        <row>
-          <h1>Des millions de petites annonces et autant d’occasions de se faire plaisir</h1>
-        </row>
-      </div>
-      <div>
+  <header>
+    <nav>
+      <img src="imgs/leboncoin.png" alt="">
+      <a href="">Déposer une annonce</a>
+      <a href="">Rechercher</a>
+      <a href="">Mes recherches</a>
+      <a href="">Favoris</a>
+      <a href="">Messages</a>
+      <a href="">Mon compte</a>
+    </nav>
+  </header>
+  <main>
+    <section id="search">
+      <ul>
+        <li>Offres</li>
+        <li>Demandes</li>
+      </ul>
+      <form action="search.php" method="GET">
+      <select name="category">
+        <option value="">All Categories</option>
+        <option value="cars">Cars</option>
+        <option value="electronics">Electronics</option>
+        <option value="furniture">Furniture</option>
+        <option value="housing">Housing</option>
+        <option value="jobs">Jobs</option>
+        <option value="services">Services</option>
+        <option value="other">Other</option>
+      </select>
+        <input type="text" name="keywords" placeholder="What are you looking for ?">
+        <input type="text" name="location" placeholder="Location">
+        <button type="submit">Search</button>
+        </form>
+      </section>
+    </section>
+    <section id="listings" class="top-categories">
+      <row>
         <ul>
-          <li>Offres</li>
-          <li>Demandes</li>
+          <li>Immobillier</li>
+          <li>Vehicules</li>
+          <li>Vacances</li>
+          <li>Emploi</li>
+          <li>Mode</li>
+          <li>Maison</li>
+          <li>Multimédias</li>
+          <li>Loisirs</li>
+          <li>Matériel professionnel</li>
+          <li>Autres</li>
         </ul>
-        
-      </div>
-    </div>
+      </row>
+    </section>
+  </div>
+  <div>
+    <row>
+      <h1>Des millions de petites annonces et autant d’occasions de se faire plaisir</h1>
+    </row>
+  </div>
+  <div>
+    <ul>
+      <li>Offres</li>
+      <li>Demandes</li>
+    </ul>
+
+  </div>
+</div>
+</main>
 </body>
 </html>
