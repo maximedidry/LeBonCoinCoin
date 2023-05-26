@@ -1,0 +1,23 @@
+.fa-plus {
+color: #fff;
+border: 2px solid #fff;
+}
+
+.button_primary_navbar {
+background-color: #ff6e14;
+color: #fff;
+border: 1px solid #ff6e14;
+text-decoration: none;
+padding: 3px;
+vertical-align: center;
+border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo_coin {
+  width: 150px;
+  height: 80px;
+}
