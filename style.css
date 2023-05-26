@@ -1,23 +1,38 @@
 .fa-plus {
 color: #fff;
 border: 2px solid #fff;
+border-radius: 5px;
+margin-right: 5px;
 }
 
 .button_primary_navbar {
+  display: flex;
 background-color: #ff6e14;
 color: #fff;
 border: 1px solid #ff6e14;
 text-decoration: none;
-padding: 3px;
+margin: 0px 16px;
+padding: 0px 8px;
 vertical-align: center;
 border-radius: 5px;
+align-items: center;
+justify-content: center;
+height: 40px;
+transition: .4s;
+}
+
+.button_primary_navbar:hover {
+  background-color: #bc510f;
+  transition: .4s;
 }
 
 .navbar {
   display: flex;
+  align-items: center;
 }
 
 .logo_coin {
   width: 150px;
   height: 80px;
+
 }
