@@ -36,3 +36,35 @@ transition: .4s;
   height: 80px;
 
 }
+
+.button-rechercher {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin-right: 24vw;
+  padding: 8px 8px;
+  align-items: center;
+  position: relative; /* Add position relative */
+}
+
+.button-rechercher::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ff6e14;
+  transition: width 0.4s ease-in-out, left 0.4s ease-in-out; /* Add transitions */
+  transform: translateX(-50%); /* Move pseudo-element to center */
+}
+
+.button-rechercher:hover::after {
+  width: 100%; /* Expand the width to 100% */
+}
+
+
+
+.fa-magnifying {
+  color: black;
+}
