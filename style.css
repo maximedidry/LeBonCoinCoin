@@ -81,24 +81,24 @@ transition: .4s;
 
 }
 
+
+
 span {
   display: flex;
   flex-direction: column;
-  position: relative;
-  align-self: stretch;
-  -webkit-box-align: center;
+  /* position: relative; */
+  /* align-self: stretch; */
   align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
-  gap: 0;
   margin-left: auto;
+  
 
 }
 
 .fa-regular {
   color: black;
   justify-content: center;
-  font-size: 1.5rem!important;
+  font-size: 1.4rem!important;
 
 }
 
