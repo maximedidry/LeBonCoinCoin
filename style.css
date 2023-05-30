@@ -91,7 +91,7 @@ span {
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  
+
 
 }
 
@@ -122,4 +122,21 @@ span {
   display: inline-flex;
   align-items: center;
   margin-left: auto;
+}
+
+.top-categories ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.top-categories li:hover {
+  font-weight: bolder;
+  transition: .4s;
+}
+
+.top-categories li:not(:last-child)::after {
+  content: '\00B7'; /* Unicode character for bullet point (·) */
+  margin: 0 0.5em; /* Adjust the spacing between the bullet points */
 }

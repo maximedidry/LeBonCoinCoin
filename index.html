@@ -10,62 +10,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
 <body>
-  <header>
-    <div class="container">
-    <nav class="navbar">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Leboncoin_Logo_%282016%29.svg" alt="" class="logo_coin">
-      <a href="" class="button_primary_navbar"><i class="fa-solid fa-plus"></i>  Déposer une annonce</a>
-      <a href="" class ="button-rechercher"><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Rechercher</a>
-      <div class="flex-haut-droit">
-      <span><i class="fa-regular fa-bell"></i><br><a href="" class="button-rechercher">Mes recherches</a></span>
-      <span><i class="fa-regular fa-heart"></i><br><a href="" class=" button-rechercher">Favoris</a></span>
-      <span><i class="fa-regular fa-envelope"></i><br><a href="" class="button-rechercher">Messages</a></span>
-      <span><i class="fa-regular fa-user"></i><br><a href="" class="button-rechercher">Max</a></span>
-    </div>
-    </nav>
-  </header>
-  <main>
-    <div>
-      <row>
-        <h2>Des millions de petites annonces et autant d’occasions de se faire plaisir</h2>
-      </row>
-    </div>
-    <section id="search">
-      <ul>
-        <li>Offres</li>
-        <li>Demandes</li>
-      </ul>
-      <form action="search.php" method="GET">
-      <select name="category">
-        <option value="">All Categories</option>
-        <option value="cars">Cars</option>
-        <option value="electronics">Electronics</option>
-        <option value="furniture">Furniture</option>
-        <option value="housing">Housing</option>
-        <option value="jobs">Jobs</option>
-        <option value="services">Services</option>
-        <option value="other">Other</option>
-      </select>
-        <input type="text" name="keywords" placeholder="What are you looking for ?">
-        <input type="text" name="location" placeholder="Location">
-        <button type="submit">Search</button>
-        </form>
-      </section>
-    </section>
-    <section id="listings" class="top-categories">
-      <ul>
-        <li>Immobillier</li>
-        <li>Vehicules</li>
-        <li>Vacances</li>
-        <li>Emploi</li>
-        <li>Mode</li>
-        <li>Maison</li>
-        <li>Multimédias</li>
-        <li>Loisirs</li>
-        <li>Matériel professionnel</li>
-        <li>Autres</li>
-      </ul>
-    </section>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Leboncoin_Logo_%282016%29.svg" alt="" class="logo_coin">
+        <a href="" class="button_primary_navbar"><i class="fa-solid fa-plus"></i>  Déposer une annonce</a>
+        <a href="" class ="button-rechercher"><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Rechercher</a>
+          <div class="flex-haut-droit">
+            <span><i class="fa-regular fa-bell"></i><br><a href="" class="button-rechercher">Mes recherches</a></span>
+            <span><i class="fa-regular fa-heart"></i><br><a href="" class=" button-rechercher">Favoris</a></span>
+            <span><i class="fa-regular fa-envelope"></i><br><a href="" class="button-rechercher">Messages</a></span>
+            <span><i class="fa-regular fa-user"></i><br><a href="" class="button-rechercher">Max</a></span>
+          </div>
+      </nav>
+      <div class="under-bar">
+        <section id="listings" class="top-categories">
+          <ul>
+            <li>Immobillier</li>
+            <li>Vehicules</li>
+            <li>Vacances</li>
+            <li>Emploi</li>
+            <li>Mode</li>
+            <li>Maison</li>
+            <li>Multimédias</li>
+            <li>Loisirs</li>
+            <li>Matériel professionnel</li>
+            <li>Autres</li>
+          </ul>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div>
+        <row>
+          <h2>Des millions de petites annonces et autant d’occasions de se faire plaisir</h2>
+        </row>
+        <section id="search">
+          <ul>
+            <li>Offres</li>
+            <li>Demandes</li>
+          </ul>
+          <form action="search.php" method="GET">
+          <select name="category">
+            <option value="">All Categories</option>
+            <option value="cars">Cars</option>
+            <option value="electronics">Electronics</option>
+            <option value="furniture">Furniture</option>
+            <option value="housing">Housing</option>
+            <option value="jobs">Jobs</option>
+            <option value="services">Services</option>
+            <option value="other">Other</option>
+          </select>
+            <input type="text" name="keywords" placeholder="What are you looking for ?">
+            <input type="text" name="location" placeholder="Location">
+            <button type="submit">Search</button>
+            </form>
+          </section>
+        </section>
+        </div>
+
     <h3>Avec leboncoin, trouvez la bonne affaire sur le site référent de petites annonces de particulier à particulier et de professionnels. Avec des millions de petites annonces, trouvez la bonne occasion dans nos catégories voiture, immobilier, emploi, location de vacances, vêtements, meubles, bricolage, téléphonie, jeux vidéo, etc… Déposez une annonce gratuite en toute simplicité pour vendre, rechercher, donner vos biens de seconde main ou promouvoir vos services. Pour cet été, découvrez nos idées de destination avec notre guide de vacances en France. Achetez en toute sécurité avec notre système de paiement en ligne et de livraison pour les annonces éligibles.</h3>
   </main>
   <footer>
