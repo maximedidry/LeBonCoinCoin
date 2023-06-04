@@ -183,3 +183,8 @@ h2 {
 .search-btn:hover {
   background-color: #2e6da4;
 }
+
+h5 {
+  margin-top: 5vh;
+  text-align: center;
+}
